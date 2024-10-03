@@ -14,5 +14,7 @@ Project ini bertujuan untuk menganalisis data pada e-commerce public dataset.
 
 
 ## Run streamlit app
+conda activate main-ds
+cd Project_analyst_data-main/cd Project_analyst_data-main/cd dashboard
 streamlit run dashboard.py
 
