@@ -62,7 +62,7 @@ def create_order_status(df):
     return order_status_df, most_common_status
     
 # Dataset
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("dashboard/all_data.csv")
 
 datetime_columns = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
 all_df.sort_values(by="order_approved_at", inplace=True)
